@@ -1,5 +1,5 @@
-function redirect () {
-  window.location = "https://google.com/";
-}
+const location = "https://google.com/";
 
-redirect();
+const redirect = (location) => window.location = location;
+
+redirect(location);
